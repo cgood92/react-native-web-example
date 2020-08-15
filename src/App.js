@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text} from 'react-native';
 import {Button, Provider, Toast} from '@ant-design/react-native';
 import {NativeRouter, Route, Switch} from 'react-router-native';
+import TextArea from './textarea';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
                 type="primary">
                 This is a button
               </Button>
+              <TextArea />
             </View>
           </Route>
         </Switch>
