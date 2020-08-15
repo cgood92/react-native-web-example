@@ -1,0 +1,10 @@
+html, body, .container, #root { height: 100% }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#root {
+    display: flex;
+}
