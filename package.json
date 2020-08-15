@@ -11,6 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ant-design/react-native": "^4.0.5",
     "react": "16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "0.63.2",
@@ -22,6 +23,7 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
     "css-loader": "^4.2.1",
     "eslint": "^7.7.0",
     "html-webpack-plugin": "^4.3.0",
