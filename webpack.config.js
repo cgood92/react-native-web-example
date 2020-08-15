@@ -17,6 +17,11 @@ module.exports = {
   },
   plugins: [new HtmlWebPackPlugin({template: './public/index.html'})],
   resolve: {
-    alias: {'react-native$': 'react-native-web'},
+    alias: {
+      'react-native$': 'react-native-web',
+      '@react-native-firebase/auth$': 'src/web-compat/firebase/auth.js',
+      '@react-native-firebase/firestore$':
+        'src/web-compat/firebase/firestore.js',
+    },
   },
 };
